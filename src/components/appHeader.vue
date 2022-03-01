@@ -38,16 +38,12 @@
                   class="indigo darken-4"
                   x-small
                   fab
-                  @click="darkMode"
-                >
-                  <v-icon color="grey" class="mr-1"
-                    >mdi-moon-waxing-crescent</v-icon
-                  >
+                  @click="darkMode">
+                  <v-icon color="grey" class="mr-1">mdi-moon-waxing-crescent</v-icon>
                 </v-btn>
               </template>
               <span>Dark Mode On</span>
             </v-tooltip>
-
             <v-tooltip v-else bottom>
               <template v-slot:activator="{ on }">
                 <v-btn
@@ -55,11 +51,8 @@
                   class="blue darken-3"
                   x-small
                   fab
-                  @click="darkMode"
-                >
-                  <v-icon color="yellow" class="mt-1"
-                    >mdi-white-balance-sunny</v-icon
-                  >
+                  @click="darkMode">
+                  <v-icon color="yellow" class="mt-1">mdi-white-balance-sunny</v-icon>
                 </v-btn>
               </template>
               <span>Dark Mode Off</span>

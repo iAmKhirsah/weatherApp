@@ -16,8 +16,7 @@
                   x-small
                   fab
                   @click="darkMode"
-                  class="blue darken-3"
-                >
+                  class="blue darken-3">
                   <v-icon>mdi-moon-waxing-crescent</v-icon>
                 </v-btn>
               </template>
@@ -30,8 +29,7 @@
                   x-small
                   fab
                   @click="darkMode"
-                  class="blue darken-3"
-                >
+                  class="blue darken-3">
                   <v-icon color="yellow">mdi-white-balance-sunny</v-icon>
                 </v-btn>
               </template>
@@ -46,8 +44,7 @@
                   x-small
                   fab
                   @click="toggleMetric"
-                  class="blue darken-3"
-                >
+                  class="blue darken-3">
                   <span class="mr-1">&degC</span>
                 </v-btn>
               </template>
@@ -60,8 +57,7 @@
                   class="blue darken-3"
                   x-small
                   fab
-                  @click="toggleMetric"
-                >
+                  @click="toggleMetric">
                   <span class="mr-1">&degF</span>
                 </v-btn>
               </template>
@@ -75,7 +71,6 @@
               <h1>Home</h1>
             </router-link>
           </v-list-item>
-
           <v-list-item>
             <router-link to="/favorites" tag="h1">
               <h1>Favorite</h1>

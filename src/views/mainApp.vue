@@ -14,8 +14,7 @@
     >
       <current-weather-preview
         :weatherData="weatherData"
-        @favorite="favorite"
-      />
+        @favorite="favorite"/>
       <v-spacer></v-spacer>
       <autocomplete-search @selectedCity="selectedCity" />
     </v-container>
