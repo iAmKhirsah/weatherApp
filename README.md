@@ -12,3 +12,6 @@ npm install
 ```
 ## Tech Stack
 Vue, VueX, Vuetify
+
+## Github Pages link
+https://iamkhirsah.github.io/weatherApp/#/
